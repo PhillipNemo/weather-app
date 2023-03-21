@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./images/roman-burki-zeM4eTle8GY-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  }
+h1{
+  margin: 10px; 
+  font-size: 1.3rem;
+  text-align: center;
+  color: aliceblue;
+  font-family: Segoe UI, "Tahoma", Geneva, Verdana, sans-serif;
+}
+main{
+  width: 450px;
+  position: relative;
+  height: auto;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding:0 5px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.search-icon{
+   width: 20px;
+   height: 20px;
+   margin-left: 5px;
+}
+.search-icon img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+input{
+  background-color: transparent;
+  display: block; 
+  padding: 10px; 
+  outline:none;
+  border-radius:15px;
+  border: none;
+  width: 80%;
+}
+input::placeholder{
+  color: #ddd;
+  
+}
+.btn{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+button{
+  margin:5px auto; 
+  padding: 9px; 
+  outline: none;
+  font-size: 1.1rem;
+  border:none;
+  border-radius:15px;
+  color: #fff; 
+  background-color:dodgerblue; 
+  cursor: pointer;
+  transition: .8s;
+}
+button:hover{
+  color: #202020;
+
+}
+.container{
+  margin-top:20%;
+  background: linear-gradient(147deg, #08b4c08f 30%, #031a5ad5 74%);
+  padding: 20px;
+  border-radius:20px;
+  margin: 0 auto; 
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 18px #000;
+}
+#weather-info p{
+  text-align: center; 
+  color:#fff;
+}
+#weather-info p#degree{
+  font-size: 7rem; 
+}
+#weather-info p#name{
+  font-size: 3rem; 
+}
+span#degree{
+  color:lightcyan;
+  margin-left: 20px; 
+  
+}
+
+sup{
+  font-size:1.2rem;
+  margin-top:-3px;
+}
+p#date{
+  font-size: 2rem; 
+  color: #fff; 
+}
+p#main{
+  padding: 5px; 
+  font-size: 1.rem;
+  font-weight: bold; 
+}
+
+div#weather-icon{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 3rem; 
+}
+img#wicon{
+  font-size: 7rem; 
+}
+
+@media screen and (max-width:500px) {
+  main{
+    width: 90%;
+    height: auto;
+  }
+}

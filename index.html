@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Weather App</title>
+</head>
+
+<body id="body">
+  
+  <main>
+
+    <h1>Check Weather of Major Cities <br> in The World</h1>
+    <div class="content">
+      
+        <div class="search-icon">
+          <img src="./images/search-interface-symbol.png" alt="search icon">
+        </div>
+        <input list="city" id="input" placeholder="Search City" required>
+        <datalist id="city">
+            <option value="Lagos">
+            <option value="London">
+            <option value="New York city">
+            <option value="Los Angeles">
+            <option value="Moscow"> 
+            <option value="Tokyo">
+            <option value="Oslo">
+            <option value="Cape Town">
+            <option value="Nairobi">
+        </datalist>
+            
+
+
+        <div class="btn">
+        <button id="btn"> Search</button>
+        </div>
+  </div>
+    <div id="weather-info">
+      <p id="degree"></p>
+      <p id="date"></p>
+      <p id="name"></p>
+      <p id="country"></p>
+      <p id="main"></p>
+      <div id="weather-icon">️
+        <img id="wicon" src="">
+      </div>
+    </div>
+    
+  </main>
+    
+  <script src="main.js"></script>
+</body>
+</html>
